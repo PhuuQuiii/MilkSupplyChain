@@ -14,6 +14,7 @@ import TraceMilkProduct from './TraceMilkProduct';
 import UpdateDistributor from './UpdateDistributor.js';
 import ApprovedMilkBoxList from './ApprovedMilkBoxList.js';
 import MilkBoxManagement from './MilkBoxManagement.js';  
+
 function App() {
   return (
     <Routes>
