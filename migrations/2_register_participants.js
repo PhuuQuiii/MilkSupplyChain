@@ -9,14 +9,14 @@ module.exports = async function (deployer, network, accounts) {
 
   // Danh sách các Participant
   const participants = [
-    { role: 'ADMIN', name: 'Quản trị', address: '0x8B5608591A2360d53b20e26460C59BC8c9f5c974' },
-    { role: 'FARM', name: 'Trang trại', address: '0x53fD2C237a18d3A731137E3a90bd41E12B90B173' },
-    { role: 'MANUFACTURER', name: 'Nhà sản xuất', address: '0xb80e8874565f88870Ad19EFB5Afa6f2BFe20409c' },
-    { role: 'DISTRIBUTOR', name: 'Nhà phân phối', address: '0xe03c2402330fE27f3DFd803B40aD1eA18D313019' },
-    { role: 'RETAILER', name: 'Nhà bán lẻ', address: '0xc50562C4c1BdC1F7A5690513427cCd3cde40f043' },
-    { role: 'NUTRITION_AUTHORITY', name: 'Viện dinh dưỡng', address: '0xA93Fc57Fe3493a91dC4Efe169C63f06A715b6Ba0' },
-    { role: 'FOOD_SAFETY_AUTHORITY', name: 'Viện an toàn thực phẩm', address: '0x701249DB5372577e81A1D701d8EA29A78130D407' },
-    { role: 'TRANSPORT_AUTHORITY', name: 'Kiểm định vận chuyển', address: '0xDf0f7DF20c4653B57833A4a20CD683B85584C25a' },
+    { role: 'ADMIN', name: 'Quản trị', address: '0xf2068df20F5c68600969caFAbA1D8c3345Ca5AFc' },
+    { role: 'FARM', name: 'Trang trại', address: '0xB0B3F843829C4D11DD137D3f2304c917CAb36Ea0' },
+    { role: 'MANUFACTURER', name: 'Nhà sản xuất', address: '0x7B839817F7D4Ecf64c8884265cDDFE596fEEC143' },
+    { role: 'DISTRIBUTOR', name: 'Nhà phân phối', address: '0x34e8001448685EE403EB01929CDd28bb942B276e' },
+    { role: 'RETAILER', name: 'Nhà bán lẻ', address: '0xCae730a0f7f9a342A08Ccd2b8AE24Cd4B2EB6621' },
+    { role: 'NUTRITION_AUTHORITY', name: 'Viện dinh dưỡng', address: '0x997236D9fFF38E3fB1f9582F51f334480d83247f' },
+    { role: 'FOOD_SAFETY_AUTHORITY', name: 'Viện an toàn thực phẩm', address: '0x88627A50D362a98aae536eF1A46628fE801f7725' },
+    { role: 'TRANSPORT_AUTHORITY', name: 'Kiểm định vận chuyển', address: '0x7E3bdE965c892B354f98e1EF896304cABBe6511b' },
   ];
 
   // Đăng ký từng Participant

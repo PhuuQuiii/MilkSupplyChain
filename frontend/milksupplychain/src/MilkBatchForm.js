@@ -38,7 +38,7 @@ const MilkBatchForm = () => {
     try {
       // Gọi hàm createMilkBatch trên contract.
       await contract.methods.createMilkBatch(batchName, milkingDate, Number(volume), selectedAccountFarm, selectedAccountApprove)
-        .send({ from: accountAddress, gas: 500000, });
+        .send({ from: accountAddress, gas: 3000000, });
       setMessage('Lô sữa đã được tạo thành công.');
       setBatchName('');
       setMilkingDate('');

@@ -34436,12 +34436,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xAfcEe9215D0fA83Ab44Bfe2733b8007D4A3cD2CC",
-      "transactionHash": "0x5621047f354692f6b46a6a7bc5ff12e1a96c6759102bb3fc08580c4ea25845b8"
+      "address": "0x96CB48A047222f5E51D1ccccbAB7F5007330B1CE",
+      "transactionHash": "0x88ddf2a5ec3e5941698a7088d9fd96ac6dae71fb9ba7d2c52e4f850625fd9553"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2025-03-24T09:01:39.595Z",
+  "updatedAt": "2025-03-24T09:52:16.290Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
