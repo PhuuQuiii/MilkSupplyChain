@@ -16,14 +16,14 @@ function Login() {
 
   // Danh sách tài khoản hardcode hiển thị trong dropdown
   const accountList = [
-    { role: 'ADMIN', name: 'Quản trị', address: '0xf2068df20F5c68600969caFAbA1D8c3345Ca5AFc' },
-    { role: 'FARM', name: 'Trang trại', address: '0xB0B3F843829C4D11DD137D3f2304c917CAb36Ea0' },
-    { role: 'MANUFACTURER', name: 'Nhà sản xuất', address: '0x7B839817F7D4Ecf64c8884265cDDFE596fEEC143' },
-    { role: 'DISTRIBUTOR', name: 'Nhà phân phối', address: '0x34e8001448685EE403EB01929CDd28bb942B276e' },
-    { role: 'RETAILER', name: 'Nhà bán lẻ', address: '0xCae730a0f7f9a342A08Ccd2b8AE24Cd4B2EB6621' },
-    { role: 'NUTRITION_AUTHORITY', name: 'Viện dinh dưỡng', address: '0x997236D9fFF38E3fB1f9582F51f334480d83247f' },
-    { role: 'FOOD_SAFETY_AUTHORITY', name: 'Viện an toàn thực phẩm', address: '0x88627A50D362a98aae536eF1A46628fE801f7725' },
-    { role: 'TRANSPORT_AUTHORITY', name: 'Kiểm định vận chuyển', address: '0x7E3bdE965c892B354f98e1EF896304cABBe6511b' },
+    { role: 'ADMIN', name: 'Quản trị', address: '0x4a68147fdDACb7dCebdC71e57CE07F60b526f155' },
+    { role: 'FARM', name: 'Trang trại', address: '0x1C831Ba5834B82D13186Ee12Bd590f8d68596778' },
+    { role: 'MANUFACTURER', name: 'Nhà sản xuất', address: '0xF96Cd7d3280833Cf9ECb4Ca97D6476770b89342D' },
+    { role: 'DISTRIBUTOR', name: 'Nhà phân phối', address: '0x044472DF362300d979F74A67074bEB561ee74D51' },
+    { role: 'RETAILER', name: 'Nhà bán lẻ', address: '0x6166dfa416B7E48e94FFeCEbdFa34A421b5f262B' },
+    { role: 'NUTRITION_AUTHORITY', name: 'Viện dinh dưỡng', address: '0x6F14B46C512b44be14563422003172bE6170Bdc2' },
+    { role: 'FOOD_SAFETY_AUTHORITY', name: 'Viện an toàn thực phẩm', address: '0x1e168c4933A90Bca6E9B3B2eBB9938B4a340C6b8' },
+    { role: 'TRANSPORT_AUTHORITY', name: 'Kiểm định vận chuyển', address: '0xE7e44A309cBc3D7B95eDE2958998514685e9e8c9' },
   ];
 
   // Trang thái lô sữa
